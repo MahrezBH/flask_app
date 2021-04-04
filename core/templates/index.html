@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/index.css">
+    <title>index page</title>
+</head>
+
+<body>
+    <h1>
+        Hello, Thanks for your visiting ^^
+    </h1>
+    <h2>List of users</h2><br>
+    {% for user in context.get('users')%}
+    <h3>Username: {{user.username}} , email: {{user.email}} </h3>
+    {% endfor %}
+</body>
+
+</html>
