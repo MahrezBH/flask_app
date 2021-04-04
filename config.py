@@ -7,4 +7,4 @@ class LocalConfig(object):
 class ProductionConfig(LocalConfig):
     DEVELOPMENT = False
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql://gaybmgxvefbgjb:79057563830eb77ea7276f08bf58ddc04f84802e2c6e5e88e2b053a617de64da@ec2-18-206-20-102.compute-1.amazonaws.com:5432/da3a6a82vsnpti'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://iemfcubqifxgal:f920816deea058a2ce1f12f32addda426c3898a3a8212ea5a71c1f1420f6aa01@ec2-18-233-83-165.compute-1.amazonaws.com:5432/d70dhgmfvp5b7t'
